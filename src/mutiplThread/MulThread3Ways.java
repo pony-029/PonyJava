@@ -16,6 +16,7 @@ public class MulThread3Ways {
             System.out.println("I am a child thread");
         }
     }
+    //
     public static void  main(String []args){
 //        Mythread mythread = new Mythread();
 //        mythread.start();
