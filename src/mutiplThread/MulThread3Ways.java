@@ -8,7 +8,7 @@ import java.util.concurrent.FutureTask;
  * 使用继承的方式的好处是方便传参数，你可以在子类里面添加成员变量，通过set方法设置参数表或者通过
  * 构造函数进行传递，如果使用Runnable方式，则只能使用主线程里面被声明为final的变量。由于java不支持
  * 多线程，如果继承了Thread类，那么子类不能再继承其他类，而Runale则没有这个限制，前两种方式都没有办法拿到任务的返回
- * 结果，但事实FutureTask可以
+ * 结果，但事实FutureTask可以.
  */
 
 
